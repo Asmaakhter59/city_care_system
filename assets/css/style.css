@@ -1,0 +1,31 @@
+
+body{background:#f4f7fb}
+.navbar-brand{font-weight:700}
+.hero{background:linear-gradient(135deg,#0f172a,#1d4ed8 55%,#06b6d4);color:#fff;border-radius:28px;overflow:hidden}
+.card-soft,.card{border:none;border-radius:22px;box-shadow:0 12px 30px rgba(0,0,0,.07);background:#fff}
+.metric-card{border:1px solid #e5e7eb;border-radius:18px;transition:.3s ease;background:#fff}
+.metric-card:hover{transform:translateY(-6px);box-shadow:0 20px 40px rgba(0,0,0,.14)}
+.metric-number{font-size:34px;font-weight:800;color:#0f172a}
+.icon-pill{width:60px;height:60px;border-radius:18px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:28px}
+.feature-card{transition:.3s ease}
+.feature-card:hover{transform:translateY(-8px);box-shadow:0 24px 45px rgba(0,0,0,.14)!important;background:linear-gradient(135deg,#1d4ed8,#06b6d4)!important;color:#fff!important}
+.feature-card:hover h5,.feature-card:hover p{color:#fff!important}
+.feature-card:hover .text-muted{color:#e0f2fe!important}
+.table thead th{background:#0f172a;color:#fff}
+.carousel-item img{height:380px;object-fit:cover;border-radius:24px}
+.status-badge{padding:6px 10px;border-radius:999px;font-size:.85rem;font-weight:700;display:inline-block}
+.status-pending{background:#fff3cd;color:#664d03}
+.status-investigation{background:#cff4fc;color:#055160}
+.status-resolved{background:#d1e7dd;color:#0f5132}
+.status-rejected{background:#f8d7da;color:#842029}
+.priority-low{background:#d1e7dd;color:#0f5132}
+.priority-medium{background:#fff3cd;color:#664d03}
+.priority-high{background:#f8d7da;color:#842029}
+.timeline{position:relative;padding-left:26px}
+.timeline::before{content:"";position:absolute;left:9px;top:0;bottom:0;width:3px;background:#dbeafe;border-radius:2px}
+.timeline-item{position:relative;margin-bottom:18px;padding:14px 16px;border-radius:16px;background:#fff;border:1px solid #e5e7eb;box-shadow:0 8px 24px rgba(0,0,0,.04)}
+.timeline-item::before{content:"";position:absolute;left:-22px;top:20px;width:14px;height:14px;border-radius:50%;background:#1d4ed8;border:3px solid #dbeafe}
+.chart-box{height:340px}
+.small-muted{font-size:.92rem;color:#64748b}
+.hover-lift{transition:.3s ease}
+.hover-lift:hover{transform:translateY(-6px)}
